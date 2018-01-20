@@ -1,0 +1,24 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "targets": {
+          "node": "8"
+        },
+        "useBuiltIns": "usage"
+      }
+    ],
+    "react",
+    "stage-3"
+  ],
+  "plugins": [
+    [
+      "module-alias",
+      [
+        { "src": "./src", "expose": "src" }
+      ]
+    ],
+    ["styled-components", [{ "ssr": false, "minify": false }]]
+  ]
+}
