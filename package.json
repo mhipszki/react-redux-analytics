@@ -1,0 +1,9 @@
+{
+  "name": "react-redux-analytics",
+  "version": "1.0.0",
+  "description": "Analytics in a React / Redux Single Page App",
+  "main": "index.js",
+  "repository": "git@github.com:mhipszki/react-redux-analytics.git",
+  "author": "Marton Hipszki <mhipszki@gmail.com>",
+  "license": "MIT"
+}
