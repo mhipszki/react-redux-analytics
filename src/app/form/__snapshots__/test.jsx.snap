@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a text input and a button 1`] = `
+<column__Column>
+  <heading__Heading>
+    React / Redux / Analytics demo
+  </heading__Heading>
+  <line>
+    Demo time!
+  </line>
+  <text-input__TextInput
+    placeholder="type your message here"
+  />
+  <button__Button>
+    Send message
+  </button__Button>
+</column__Column>
+`;

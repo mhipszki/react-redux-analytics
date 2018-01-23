@@ -4,6 +4,7 @@ exports[`styles an h1 element 1`] = `
 .c0 {
   font-size: 2rem;
   margin-top: 0;
+  color: palevioletred;
 }
 
 <h1

@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`generates action with given message 1`] = `
+Object {
+  "message": "message",
+  "type": "UPDATE_MESSAGE",
+}
+`;

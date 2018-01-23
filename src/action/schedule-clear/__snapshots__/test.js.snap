@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`generates action to schedule clearing user notification 1`] = `
+Object {
+  "type": "CLEAR_SENDING_INFO",
+}
+`;

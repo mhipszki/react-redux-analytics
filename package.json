@@ -1,7 +1,7 @@
 {
   "name": "react-redux-analytics",
   "version": "1.0.0",
-  "description": "Analytics in a React / Redux Single Page App",
+  "description": "Analytics demo in a React / Redux Single Page App",
   "main": "index.js",
   "repository": "git@github.com:mhipszki/react-redux-analytics.git",
   "author": "Marton Hipszki <mhipszki@gmail.com>",
@@ -12,7 +12,6 @@
   "scripts": {
     "start": "webpack-dev-server --open --hot",
     "clean-build": "rm -rf build",
-    "build": "yarn clean-build && webpack",
     "lint": "eslint . --ext js,jsx",
     "lint-css": "stylelint './src/**/*.js' './src/**/*.jsx'",
     "precommit": "lint-staged",
@@ -46,6 +45,8 @@
     "react-redux": "^5.0.6",
     "react-router": "^4.2.0",
     "redux": "^3.7.2",
+    "redux-devtools-extension": "^2.13.2",
+    "redux-thunk": "^2.2.0",
     "styled-components": "^2.4.0",
     "stylelint": "^8.4.0",
     "stylelint-config-standard": "^18.0.0",
@@ -91,7 +92,9 @@
   ],
   "jest": {
     "testEnvironment": "node",
-    "testMatch": [ "**/?(*.)test.js?(x)" ],
+    "testMatch": [
+      "**/?(*.)test.js?(x)"
+    ],
     "testPathIgnorePatterns": [
       "<rootDir>/build/",
       "<rootDir>/node_modules/"

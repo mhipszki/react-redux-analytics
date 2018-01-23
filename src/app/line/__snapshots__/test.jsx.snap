@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`styles an h2 element 1`] = `
+.c0 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin-top: 0;
+  color: #777;
+}
+
+<Line
+  className="c0"
+  isBold={false}
+  text="text"
+>
+  text
+</Line>
+`;

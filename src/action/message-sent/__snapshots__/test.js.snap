@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`generates action to indicate start of message sending 1`] = `
+Object {
+  "timestamp": 1234567890,
+  "type": "MESSAGE_SENT",
+}
+`;

@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`has different styling when disabled 1`] = `
+.c0 {
+  background: #eee;
+  border: none;
+  border-radius: 3px;
+  color: palevioletred;
+  font-size: 1.5em;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+<input
+  className="c0"
+  disabled={true}
+  type="text"
+/>
+`;
+
+exports[`styles a text input element 1`] = `
+.c0 {
+  background: papayawhip;
+  border: none;
+  border-radius: 3px;
+  color: palevioletred;
+  font-size: 1.5em;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+<input
+  className="c0"
+  type="text"
+/>
+`;

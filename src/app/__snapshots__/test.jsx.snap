@@ -1,7 +1,29 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders hello world! 1`] = `
-<heading__Heading>
-  Hello world!
-</heading__Heading>
+exports[`renders prev / next buttons and a page 1`] = `
+<row__Row>
+  <column__Column>
+    <nav__Nav
+      disabled={false}
+    >
+      Prev
+    </nav__Nav>
+  </column__Column>
+  <column__Column
+    style={
+      Object {
+        "alignSelf": "flex-start",
+      }
+    }
+  >
+    <Slide />
+  </column__Column>
+  <column__Column>
+    <nav__Nav
+      disabled={false}
+    >
+      Next
+    </nav__Nav>
+  </column__Column>
+</row__Row>
 `;

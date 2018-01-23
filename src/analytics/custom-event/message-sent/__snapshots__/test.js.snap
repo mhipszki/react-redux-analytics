@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`constructs \`message_sent\` payload to be pushed to data layer 1`] = `
+Object {
+  "event": "message_sent",
+  "message": Object {
+    "text": "message text",
+    "timestamp": "Thu Jan 15 1970",
+  },
+}
+`;

@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`has different styling when disabled 1`] = `
+.c0 {
+  background: #eee;
+  border: 2px solid #eee;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  font-size: 1.5em;
+  margin: 0 1em;
+  padding: 0.25em 1em;
+}
+
+<button
+  className="c0"
+  disabled={true}
+/>
+`;
+
+exports[`styles a button element 1`] = `
+.c0 {
+  background: palevioletred;
+  border: 2px solid palevioletred;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  font-size: 1.5em;
+  margin: 0 1em;
+  padding: 0.25em 1em;
+}
+
+<button
+  className="c0"
+/>
+`;
