@@ -24,5 +24,5 @@ export default styled(Line).attrs({
   margin-top: 0;
   color: #777;
   opacity: 0;
-  transition: all 0.3s ease-in;
+  transition: all 0.1s ease-in;
 `;

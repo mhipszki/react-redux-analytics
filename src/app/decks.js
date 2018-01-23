@@ -17,7 +17,7 @@ const analyticsForBetterUx = {
     '*how*',
     '🔍 capturing indicative data',
     '*why*',
-    '🤔 understanding => improve UX',
+    '🤔 understanding users => improve UX',
     '*importance*',
     '😬 not having event tracking',
     '🙄 trusting your tracking setup',
@@ -47,7 +47,7 @@ const traditionalVsSPAs = {
     '❤️ GTM built-ins to help up and running',
     '*single page view*',
     '😱 Data Layer won`t be re-set',
-    '😕 data availability after SPA loaded',
+    '😕 data only availabe after SPA loaded',
     '*some extra work needed*',
     '👻 virtual page views',
     '`window.dataLayer.push("productId", undefined)`'
@@ -93,7 +93,7 @@ const dataContract = {
     '*💾 Data Layer*',
     'similar to Redux store',
     'GTM extracts from there',
-    '⚠️ need to be kept clean!'
+    '⚠️ needs to be kept clean!'
   ]
 };
 
@@ -117,7 +117,7 @@ const wrapUp = {
     'analytics is for 👩‍🔧👨‍✈️👩‍🍳👨‍⚕️🎅',
     'analytics is not 🚀👨‍🔬',
     'collaborate 💡',
-    'think architecture 👓',
+    'think architecture and scalability 👓',
     'use Redux middleware + mapped actions 👌',
     'keep Data Layer clean',
     'learning Analytics makes you a better dev 😉'
@@ -131,9 +131,9 @@ const thankYou = {
     'Marton Hipszki',
     'equalexperts.com',
     '🐦 twitter: twitter.com/mhipszki',
-    '💻 github.com/mhipszki/react-redux-analytics',
-    '*try the demo!*',
-    '(project code and resources on Github)'
+    '*try the demo*',
+    '*have a look at the code*',
+    '💻 github.com/mhipszki/react-redux-analytics'
   ]
 };
 
