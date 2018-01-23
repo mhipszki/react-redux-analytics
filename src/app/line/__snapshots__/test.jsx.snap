@@ -6,6 +6,9 @@ exports[`styles an h2 element 1`] = `
   font-weight: normal;
   margin-top: 0;
   color: #777;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
 }
 
 <Line
