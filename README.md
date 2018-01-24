@@ -1,6 +1,6 @@
->folks attending the React Meetup tonight, watch this space as I'll add loads of links to resources related to the Analytics topic :)
+>folks attending the React London Meetup tonight, watch this space as I'll add loads of links to resources related to the Analytics topic :)
 
->pls open an issue here on pingme on Twitter https://twitter.com/mhipszki if you have any follow-up question I'm happy to help!
+>pls open an issue here or ping me on Twitter https://twitter.com/mhipszki if you have any follow-up question I'm happy to help!
 
 # Analytics in a React / Redux Single Page App
 
