@@ -32,13 +32,6 @@ export const App = ({ onPrevClick, onNextClick, page, pageNum }) => (
   </Row>
 );
 
-// if (state === decks.length - 2) {
-//   averageTimeSpent
-//   const stats = { title: '...and the stats', content: [
-//     averageTimeSpent, shortestSlide, longestSlide, demoTime
-//   ]}
-// }
-
 const mapStateToProps = state => ({
   page: decks[state.page],
   pageNum: state.page

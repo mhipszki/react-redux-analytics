@@ -3,6 +3,7 @@ const intro = {
   content: [
     '🙂',
     'my name is 👋 Marton',
+    'equalexperts.com',
     'this talk is about',
     '*Analytics in a React / Redux SPA*',
     'tonight',

@@ -12,16 +12,16 @@ Have you implemented Analytics before in a React / Redux app? Did you find it ea
 
 ### UX requirements
 
-[+] app shows a text input for the user to enter some text and a button to the message
+[+] app shows a `text input` for the user to enter some text and a `button` to the message
 [+] when the user sends the message
-    + the "Message API" is called with the entered text
-    + the time stamp when the user sends the message is captured
-    + the user is notified that the message is being sent
-    + the user can neither edit the message nor send it again until the Message API call has returned
+    + the `Message API` is called with the entered text
+    + the `timestamp` is captured
+    + the user is `notified` that the message is being sent
+    + the user can `neither edit nor send`  the message again until the Message API call has returned
 [+] when the message has been sent
-    + the user is notified that the message was sent and how long the message sending has taken (based on the time stamp)
-    + the user can edit and send a message again
-    + notification disappears after delay showing demo title
+    + the user is `notified` that the message was sent and how long the message sending has taken (based on the time stamp)
+    + the user `can edit and send` a message again
+    + `notification disappears` after delay showing demo title
 
 ### Analytics requirements
 
